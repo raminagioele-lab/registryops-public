@@ -9,7 +9,7 @@
     "asset_ref",
     "surface_type",
     "event_type",
-    "observed_at",
+    "observed_at_utc",
     "source_ref",
     "confidence_level"
   ],
@@ -30,11 +30,10 @@
       "type": "string",
       "description": "Event type as defined in taxonomy_v1."
     },
-    "observed_at": {
+    "observed_at_utc": {
       "type": "string",
       "format": "date-time",
-      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$",
-      "description": "UTC timestamp in ISO 8601 format with mandatory 'Z' suffix."
+      "description": "UTC timestamp of observation (ISO 8601)."
     },
     "source_ref": {
       "type": "string",
