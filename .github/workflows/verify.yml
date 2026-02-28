@@ -9,6 +9,7 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,14 +21,31 @@ jobs:
             find . -name ".DS_Store" -o -name "._*" -print
             exit 1
           fi
+          echo "No forbidden macOS metadata files found."
 
       - name: Ensure current/ exists (public mirror requirement)
         run: |
-          if [ -d "registry/public/current" ]; then
-            echo "Found registry/public/current"
-          elif [ -d "public/current" ]; then
-            echo "Found public/current"
+          if [ -d "current" ]; then
+            echo "Found current/ directory."
           else
-            echo "Missing current/ directory (expected registry/public/current or public/current)."
+            echo "Missing current/ directory."
+            exit 1
+          fi
+
+      - name: Ensure journal exists
+        run: |
+          if [ -f "current/journal/events.jsonl" ]; then
+            echo "Journal found."
+          else
+            echo "Missing current/journal/events.jsonl"
+            exit 1
+          fi
+
+      - name: Ensure integrity manifest exists
+        run: |
+          if [ -f "current/integrity/integrity.json" ] || [ -f "current/integrity/public_manifest.json" ]; then
+            echo "Integrity manifest found."
+          else
+            echo "Missing integrity manifest."
             exit 1
           fi
