@@ -1,0 +1,13 @@
+{
+  "date_utc": "2026-02-28",
+  "event_count": 5,
+  "merkle_root": "df04d776ff39b4cb0a559436cfa00ab6f49f535842ae2f1324ff6426c4d24cc6",
+  "hash_algorithm": "SHA-256",
+  "hash_algo_version": "v1",
+  "generated_at_utc": "2026-03-01T12:02:51.867785Z",
+  "anchored_at": "2026-02-25T19:13:51.825740Z",
+  "anchor_ref": {
+    "anchor_txt": "integrity/anchors/registry_bundle_2026-02-12.anchor.txt",
+    "anchor_ots": "integrity/anchors/registry_bundle_2026-02-12.anchor.txt.ots"
+  }
+}

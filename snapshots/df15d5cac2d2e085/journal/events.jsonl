@@ -1,5 +1,0 @@
-{"event_id": "evt_0001", "asset_ref": "asset_alpha", "surface_type": "web", "event_type": "appearance_detected", "observed_at": "2026-02-12T09:00:00Z", "source_ref": "public_source_generic", "confidence_level": 0.9}
-{"event_id": "evt_0002", "asset_ref": "asset_alpha", "surface_type": "web", "event_type": "status_updated", "observed_at": "2026-02-12T09:20:00Z", "source_ref": "public_source_generic", "confidence_level": 0.85}
-{"event_id": "evt_0003", "asset_ref": "asset_alpha", "surface_type": "web", "event_type": "status_updated", "observed_at": "2026-02-12T09:30:00Z", "source_ref": "public_source_generic", "confidence_level": 0.88}
-{"event_id": "evt_0004", "asset_ref": "asset_beta", "surface_type": "web", "event_type": "appearance_detected", "observed_at": "2026-02-12T09:40:00Z", "source_ref": "public_source_generic", "confidence_level": 0.92}
-{"event_id": "evt_0005", "asset_ref": "asset_alpha", "surface_type": "web", "event_type": "status_updated", "observed_at": "2026-02-12T09:50:00Z", "source_ref": "public_source_generic", "confidence_level": 0.91}
