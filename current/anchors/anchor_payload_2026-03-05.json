@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "day": "2026-03-05",
+  "generated_at": "2026-03-05T10:10:28.375638Z",
+  "events_sha256": "7988c0c48e98be86371d414fd209da3b02fc1eddf8b7310d82158d123df036aa",
+  "prev_day": "",
+  "prev_cumulative_commitment": "GENESIS",
+  "commitment_string": "registryops|v2|2026-03-05|7988c0c48e98be86371d414fd209da3b02fc1eddf8b7310d82158d123df036aa|prev=GENESIS",
+  "cumulative_commitment": "1d8b64d2893392a4523adb398647951d63f79273dd1be020cbb0cb71555717a8",
+  "anchor_type": "opentimestamps"
+}
