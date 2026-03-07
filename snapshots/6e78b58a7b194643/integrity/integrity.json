@@ -1,7 +1,0 @@
-{
-  "events_sha256": "1399f9d3ae9790118cae31a896eb5b7fe47ec2c8d93eac2231934973496923b1",
-  "event_count": 7,
-  "journal_merkle_root": "7003eab05265749586f4d2eb338cafc17e3afd9e5e6beb7487444d96c26c93c3",
-  "generated_at": "2026-03-05T17:50:09.021870+00:00",
-  "state_version": "v1"
-}

@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-03-06",
+  "event_count": 1,
+  "merkle_root": "9838b79c8693c14feb0c7b8920c9c1d36ec5123d79739b20a104438447060815",
+  "hash_algorithm": "SHA-256",
+  "hash_algo_version": "v1",
+  "generated_at_utc": "2026-03-07T04:48:18.756248Z",
+  "anchored_at": null,
+  "anchor_ref": null,
+  "leaf_order": "(observed_at,event_id)"
+}

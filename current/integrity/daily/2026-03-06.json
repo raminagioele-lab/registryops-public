@@ -1,0 +1,15 @@
+{
+  "date_utc": "2026-03-06",
+  "events_count": 1,
+  "journal_sha256": "a19bfbf8586cba803d0cb9c42ed557510238c77a071cbf9a850c5434b9101d27",
+  "daily_root": "9838b79c8693c14feb0c7b8920c9c1d36ec5123d79739b20a104438447060815",
+  "prev_day_root": null,
+  "anchor_type": "opentimestamps",
+  "anchor_target": "daily_root",
+  "anchor_file": null,
+  "anchor_payload_file": null,
+  "anchored_at_utc": null,
+  "hash_algorithm": "SHA-256",
+  "canonical_event_order": "(observed_at,event_id)",
+  "daily_record_path": "integrity/daily/2026-03-06.json"
+}

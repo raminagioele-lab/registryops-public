@@ -1,4 +1,0 @@
-registryops_bundle_anchor_v1
-date_utc=2026-02-12
-bundle_sha256=dc556cb6a467f15762ef9165456b57de2c0b961a01dc7346e1f16643e21aee0a
-manifest_sha256=618e8a7c1d3be2054fa3d79a6ea1644c6a72ae45d3737778bbc18be96a8325ab
