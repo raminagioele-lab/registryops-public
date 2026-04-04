@@ -41,11 +41,11 @@ jobs:
             exit 1
           fi
 
-      - name: Ensure integrity manifest exists
+      - name: Ensure phase 1 integrity artifacts exist
         run: |
-          if [ -f "current/integrity/integrity.json" ] || [ -f "current/integrity/public_manifest.json" ]; then
-            echo "Integrity manifest found."
+          if [ -f "current/integrity/publication_manifest.json" ] && [ -f "current/integrity/merkle_root.txt" ] && [ -f "current/integrity/proof_status.json" ]; then
+            echo "Phase 1 integrity artifacts found."
           else
-            echo "Missing integrity manifest."
+            echo "Missing phase 1 integrity artifacts."
             exit 1
           fi

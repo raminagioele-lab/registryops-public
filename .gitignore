@@ -7,7 +7,6 @@ registry/ingestion/*/state/
 # Local anchor tests
 # -----------------------------
 test_anchor*
-*.ots
 
 # -----------------------------
 # macOS
@@ -23,4 +22,3 @@ __pycache__/
 # Local exports (optionnel)
 # -----------------------------
 exports/*.tar.gz
-

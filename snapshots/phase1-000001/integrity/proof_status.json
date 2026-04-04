@@ -1,0 +1,12 @@
+{
+  "publication_id": "phase1-000001",
+  "status": "pending_ots",
+  "anchored_object": "integrity/merkle_root.txt",
+  "anchor_payload_path": "integrity/anchor_payload.json",
+  "anchor_ots_path": "integrity/anchor.ots",
+  "last_verified_at": null,
+  "details": "OTS CLI is available but calendar attestations could not be obtained during staging.",
+  "verification_method": null,
+  "verification_target": null,
+  "verification_result": null
+}

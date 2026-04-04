@@ -27,16 +27,72 @@ jobs:
             echo "No journal found."
             exit 1
           fi
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
 
-          CALC_SHA=$(sha256sum current/journal/events.jsonl | awk '{print $1}')
-          STORED_SHA=$(jq -r .events_sha256 current/integrity/integrity.json)
+          root = Path("current")
+          journal_path = root / "journal" / "events.jsonl"
+          manifest_path = root / "integrity" / "publication_manifest.json"
+          merkle_root_path = root / "integrity" / "merkle_root.txt"
+          anchor_payload_path = root / "integrity" / "anchor_payload.json"
+          proof_status_path = root / "integrity" / "proof_status.json"
+          anchor_ots_path = root / "integrity" / "anchor.ots"
 
-          echo "Calculated SHA: $CALC_SHA"
-          echo "Stored SHA:     $STORED_SHA"
+          with journal_path.open("r", encoding="utf-8") as f:
+              lines = [line.rstrip("\n") for line in f if line.strip()]
 
-          if [ "$CALC_SHA" != "$STORED_SHA" ]; then
-            echo "Integrity mismatch!"
-            exit 1
-          fi
+          with manifest_path.open("r", encoding="utf-8") as f:
+              manifest = json.load(f)
+          with anchor_payload_path.open("r", encoding="utf-8") as f:
+              anchor_payload = json.load(f)
+          with proof_status_path.open("r", encoding="utf-8") as f:
+              proof_status = json.load(f)
 
-          echo "Integrity verified."
+          def digest(data: bytes) -> bytes:
+              return hashlib.sha256(data).digest()
+
+          def merkle_root_hex(values: list[str]) -> str:
+              if not values:
+                  return hashlib.sha256(b"").hexdigest()
+              level = [digest(value.encode("utf-8")) for value in values]
+              while len(level) > 1:
+                  if len(level) % 2 == 1:
+                      level.append(level[-1])
+                  level = [digest(level[i] + level[i + 1]) for i in range(0, len(level), 2)]
+              return level[0].hex()
+
+          calculated_sha = hashlib.sha256(journal_path.read_bytes()).hexdigest()
+          calculated_root = merkle_root_hex(lines)
+          published_root = merkle_root_path.read_text(encoding="utf-8").strip()
+
+          if calculated_sha != manifest["events_sha256"]:
+              raise SystemExit("events_sha256 mismatch")
+          if calculated_root != manifest["merkle_root_sha256"]:
+              raise SystemExit("publication manifest Merkle root mismatch")
+          if published_root != calculated_root:
+              raise SystemExit("merkle_root.txt mismatch")
+          if anchor_payload["merkle_root_sha256"] != calculated_root:
+              raise SystemExit("anchor_payload Merkle root mismatch")
+          if anchor_payload["events_sha256"] != calculated_sha:
+              raise SystemExit("anchor_payload events_sha256 mismatch")
+          if anchor_payload["journal_path"] != "journal/events.jsonl":
+              raise SystemExit("anchor_payload journal_path mismatch")
+
+          status = proof_status["status"]
+          anchor_present = anchor_ots_path.exists() and anchor_ots_path.stat().st_size > 0
+          if status == "pending_ots" and anchor_present:
+              raise SystemExit("anchor.ots must be absent while pending_ots")
+          if status != "pending_ots" and not anchor_present:
+              raise SystemExit("anchor.ots must exist for non-pending proof statuses")
+          if status == "verified":
+              if proof_status.get("verification_target") != "bitcoin":
+                  raise SystemExit("verified status must target bitcoin")
+              if proof_status.get("verification_result") != "published_anchor_verified":
+                  raise SystemExit("verified status must declare published_anchor_verified")
+              if not proof_status.get("verification_method") or not proof_status.get("last_verified_at"):
+                  raise SystemExit("verified status missing verification metadata")
+
+          print("Integrity verified.")
+          PY

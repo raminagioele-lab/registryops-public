@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registryops.org/schema_state.json",
+  "title": "RegistryOps Derived Aggregated State Record",
+  "type": "array",
+  "description": "Derived aggregated state projection subordinate to the append-only event journal. Each record is scoped by the pair (surface_type, asset_ref).",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "surface_type",
+      "asset_ref",
+      "first_seen_at",
+      "last_observed_at",
+      "event_count_total",
+      "persistence_duration_days",
+      "last_state_update",
+      "state_level"
+    ],
+    "properties": {
+      "surface_type": {
+        "type": "string",
+        "description": "Canonical surface type of the public observation scope for this derived aggregated state record.",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "asset_ref": {
+        "type": "string",
+        "description": "Canonical reference of the observed asset within the scope of the associated surface_type.",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "first_seen_at": {
+        "type": "string",
+        "description": "Earliest observed_at value for this (surface_type, asset_ref) pair in canonical event history.",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+      },
+      "last_observed_at": {
+        "type": "string",
+        "description": "Latest observed_at value for this (surface_type, asset_ref) pair in canonical event history.",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+      },
+      "event_count_total": {
+        "type": "integer",
+        "description": "Total number of canonical events associated with this (surface_type, asset_ref) pair after deduplication.",
+        "minimum": 0
+      },
+      "persistence_duration_days": {
+        "type": "integer",
+        "description": "Floor of the duration in days between first_seen_at and last_observed_at.",
+        "minimum": 0
+      },
+      "last_state_update": {
+        "type": "string",
+        "description": "System recomputation timestamp for this derived state projection.",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+      },
+      "state_level": {
+        "type": "string",
+        "description": "Derived analytical classification only; not canonical event truth.",
+        "enum": [
+          "stable",
+          "evolving",
+          "persistent"
+        ]
+      }
+    }
+  }
+}

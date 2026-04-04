@@ -1,0 +1,12 @@
+{
+  "publication_id": "phase1-000001",
+  "publication_line": "phase1",
+  "generated_at": "2026-04-03T21:45:01Z",
+  "anchored_object": "integrity/merkle_root.txt",
+  "journal_path": "journal/events.jsonl",
+  "event_count": 1,
+  "events_sha256": "76059c609bdf8ff3a3519e114cd0b3d1d716a33498e5e47c6abc4bafebf3a197",
+  "merkle_root_sha256": "85c1a417a733b1015256f7a1e05c57619abd81a1da068becfa00080cecf86243",
+  "leaf_hash_rule": "sha256(utf8(raw_journal_line_without_trailing_lf))",
+  "leaf_order": "journal_file_line_order"
+}

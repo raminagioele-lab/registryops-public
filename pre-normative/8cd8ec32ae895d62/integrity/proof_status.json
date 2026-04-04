@@ -1,0 +1,12 @@
+{
+  "publication_id": "8cd8ec32ae895d62",
+  "status": "pending_ots",
+  "anchored_object": "integrity/merkle_root.txt",
+  "anchor_payload_path": "integrity/anchor_payload.json",
+  "anchor_ots_path": "integrity/anchor.ots",
+  "last_verified_at": null,
+  "details": "Historical public artifact preserved as pre-normative without an attached OTS proof.",
+  "verification_method": null,
+  "verification_target": null,
+  "verification_result": null
+}
