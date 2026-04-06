@@ -1,0 +1,9 @@
+{
+  "events_sha256": "a816a47454a007696ab16d9a073b146f7cb75fc6ccf620e7bee93823311464c2",
+  "event_count": 1,
+  "journal_merkle_root": "96e10236075f93513cb24996f600e2488a5c2b0f90e09d0688c50e8081815386",
+  "generated_at": "2026-03-26T19:57:21Z",
+  "state_version": "canonical",
+  "canonical_event_order": "(observed_at,event_id)",
+  "canonical_json": "json.dumps(sort_keys=True,separators=(',',':'),ensure_ascii=False)"
+}

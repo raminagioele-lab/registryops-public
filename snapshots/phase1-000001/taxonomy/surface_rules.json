@@ -8,9 +8,7 @@
       },
       "source_ref": {
         "description": "Absolute HTTPS URI to the public canonical resource used to resolve the tag.",
-        "allowed_hosts": [
-          "registry-1.docker.io"
-        ]
+        "allowed_hosts": []
       }
     },
     "npm_package_metadata": {

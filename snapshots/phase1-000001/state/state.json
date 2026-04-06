@@ -1,50 +1,14 @@
 [
   {
-    "surface_type": "ietf_internet_draft",
-    "asset_ref": "draft-ietf-httpbis-incremental-00",
-    "first_seen_at": "2026-04-04T10:42:21Z",
-    "last_observed_at": "2026-04-06T13:54:37Z",
-    "event_count_total": 2,
-    "persistence_duration_days": 2,
-    "last_state_update": "2026-04-06T13:54:38Z",
-    "state_level": "stable",
-    "last_event_type": "reobserved",
-    "last_source_ref": "https://www.ietf.org/archive/id/draft-ietf-httpbis-incremental-00.txt"
-  },
-  {
-    "surface_type": "npm_package_metadata",
-    "asset_ref": "react@18.2.0",
-    "first_seen_at": "2026-04-04T10:42:21Z",
-    "last_observed_at": "2026-04-06T13:54:37Z",
-    "event_count_total": 2,
-    "persistence_duration_days": 2,
-    "last_state_update": "2026-04-06T13:54:38Z",
-    "state_level": "stable",
-    "last_event_type": "reobserved",
-    "last_source_ref": "https://registry.npmjs.org/react/18.2.0"
-  },
-  {
-    "surface_type": "oci_manifest",
-    "asset_ref": "registry-1.docker.io/library/nginx:1.27.4",
-    "first_seen_at": "2026-04-04T10:42:21Z",
-    "last_observed_at": "2026-04-06T13:54:37Z",
-    "event_count_total": 2,
-    "persistence_duration_days": 2,
-    "last_state_update": "2026-04-06T13:54:38Z",
-    "state_level": "stable",
-    "last_event_type": "reobserved",
-    "last_source_ref": "https://registry-1.docker.io/v2/library/nginx/manifests/1.27.4"
-  },
-  {
     "surface_type": "pypi_release_metadata",
     "asset_ref": "requests==2.32.0",
     "first_seen_at": "2026-03-12T14:05:00Z",
-    "last_observed_at": "2026-04-06T13:54:37Z",
-    "event_count_total": 3,
-    "persistence_duration_days": 24,
-    "last_state_update": "2026-04-06T13:54:38Z",
-    "state_level": "evolving",
-    "last_event_type": "reobserved",
+    "last_observed_at": "2026-03-12T14:05:00Z",
+    "event_count_total": 1,
+    "persistence_duration_days": 0,
+    "last_state_update": "2026-04-03T21:45:01Z",
+    "state_level": "stable",
+    "last_event_type": "first_seen",
     "last_source_ref": "https://pypi.org/pypi/requests/2.32.0/json"
   }
 ]

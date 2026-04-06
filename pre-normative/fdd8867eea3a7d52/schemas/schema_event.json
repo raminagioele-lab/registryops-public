@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registryops.org/schema_event.json",
+  "title": "RegistryOps Canonical Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "asset_ref",
+    "surface_type",
+    "event_type",
+    "observed_at",
+    "source_ref"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "description": "Deterministic SHA-256 lowercase hexadecimal identifier of the canonical event identity.",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "asset_ref": {
+      "type": "string",
+      "description": "Canonical reference of the observed asset.",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "surface_type": {
+      "type": "string",
+      "description": "Authorized RegistryOps surface type.",
+      "enum": [
+        "oci_manifest",
+        "npm_package_metadata",
+        "pypi_release_metadata",
+        "github_release_asset",
+        "crl_publication",
+        "ct_log_entry",
+        "ietf_internet_draft"
+      ]
+    },
+    "event_type": {
+      "type": "string",
+      "description": "Authorized RegistryOps event type.",
+      "enum": [
+        "first_seen",
+        "state_changed",
+        "withdrawn",
+        "revoked",
+        "replaced",
+        "expired",
+        "unreachable"
+      ]
+    },
+    "observed_at": {
+      "type": "string",
+      "description": "Canonical UTC timestamp at which RegistryOps records an admissible public observation in the canonical event journal, with second-level precision. It must not be interpreted as a source-issued, third-party, observer-local, inferred, or reconstructed timestamp.",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "source_ref": {
+      "type": "string",
+      "description": "Canonical public source reference using the RegistryOps grammar.",
+      "pattern": "^source:[a-z0-9_-]+:[a-z0-9_-]+:[a-z0-9._:@-]+$",
+      "minLength": 10,
+      "maxLength": 200
+    }
+  }
+}
