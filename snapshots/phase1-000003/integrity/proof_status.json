@@ -5,7 +5,7 @@
   "anchor_payload_path": "integrity/anchor_payload.json",
   "anchor_ots_path": "integrity/anchor.ots",
   "last_verified_at": null,
-  "details": "OTS CLI is available but calendar attestations could not be obtained during staging.",
+  "details": "OTS CLI not available during staging.",
   "verification_method": null,
   "verification_target": null,
   "verification_result": null
