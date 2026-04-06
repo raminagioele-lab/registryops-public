@@ -49,6 +49,52 @@
         "null"
       ],
       "maxLength": 500
+    },
+    "verification_method": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 200
+    },
+    "verification_target": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "bitcoin",
+        null
+      ]
+    },
+    "verification_result": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "published_anchor_verified",
+        null
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "verified"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "last_verified_at",
+          "verification_method",
+          "verification_target",
+          "verification_result"
+        ]
+      }
     }
   }
 }

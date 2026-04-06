@@ -1,7 +1,0 @@
-registryops:daily-root:v1
-date_utc=2026-03-12
-publication_id=fdd8867eea3a7d52
-events_sha256=ce6798de278896c566a937144f47c6732cbc4f2cc1148fb5e177c58c59bceb32
-journal_merkle_root=b55483379fc30dc8a23226c1d18bb8d680944999767c0e152f5cc7c28fd958a5
-daily_root=b55483379fc30dc8a23226c1d18bb8d680944999767c0e152f5cc7c28fd958a5
-prev_day_root=

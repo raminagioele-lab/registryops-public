@@ -1,11 +1,11 @@
 {
-  "publication_id": "phase1-000002",
+  "publication_id": "phase1-000001",
   "publication_line": "phase1",
   "publication_status": "canonical",
-  "published_at": "2026-04-04T10:51:10Z",
-  "event_count": 5,
-  "events_sha256": "6a214b52a8fc58add1ec25bcc0da1c83bf321b96049a10dee4e58dd9c6a84432",
-  "merkle_root_sha256": "171b161b8ec830411d10712358acd43f00cf4bc5cd6e1c92eb48064cedbdcd81",
+  "published_at": "2026-04-06T13:54:38Z",
+  "event_count": 9,
+  "events_sha256": "ee42675f78384deee13e4f61f80b2b8742c9e4cfce3fb7a66b38f9e0e67e5a36",
+  "merkle_root_sha256": "8ce17e06ba9c641a67bd2a6743d125c4405bb6b9c35b86190d456d1dd7a64b6a",
   "journal_path": "journal/events.jsonl",
   "proof_status_path": "integrity/proof_status.json"
 }
