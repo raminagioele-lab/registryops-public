@@ -1,0 +1,21 @@
+{
+  "phase": "phase1",
+  "values": [
+    {
+      "name": "oci_manifest",
+      "label": "Docker / OCI manifest digest"
+    },
+    {
+      "name": "npm_package_metadata",
+      "label": "npm package version metadata"
+    },
+    {
+      "name": "pypi_release_metadata",
+      "label": "PyPI release metadata"
+    },
+    {
+      "name": "ietf_internet_draft",
+      "label": "IETF Internet Draft versions"
+    }
+  ]
+}
