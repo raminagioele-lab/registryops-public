@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registryops.org/schemas/event.schema.json",
+  "title": "RegistryOps Canonical Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "asset_ref",
+    "surface_type",
+    "event_type",
+    "observed_at",
+    "source_ref"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "asset_ref": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "surface_type": {
+      "type": "string",
+      "enum": [
+        "oci_manifest",
+        "npm_package_metadata",
+        "pypi_release_metadata",
+        "ietf_internet_draft",
+        "maven_central_artifact_metadata",
+        "crates_io_package_index_metadata"
+      ]
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "first_seen",
+        "reobserved",
+        "state_changed",
+        "withdrawn",
+        "revoked",
+        "replaced",
+        "expired",
+        "unreachable"
+      ]
+    },
+    "observed_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "source_ref": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://[^#\\s]+$",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "observable_fingerprint": {
+      "type": "string",
+      "description": "Phase 1.1 public SHA-256 fingerprint of the canonical observed-state profile. Required by ingestion for new observation events.",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}
