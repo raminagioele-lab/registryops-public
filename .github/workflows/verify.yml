@@ -52,3 +52,15 @@ jobs:
             echo "Missing phase 1 integrity artifacts."
             exit 1
           fi
+
+      - name: Ensure hardened immutability ledger exists
+        run: |
+          if [ -f "immutability_ledger.json" ]; then
+            echo "Immutability ledger found."
+          else
+            echo "Missing immutability_ledger.json"
+            exit 1
+          fi
+
+      - name: Ensure the independent public verifier exists
+        run: test -f verify_registryops.py
