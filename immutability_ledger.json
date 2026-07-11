@@ -1,0 +1,806 @@
+{
+  "contract_profile": "registryops-contract-2026-07",
+  "created_at": "2026-07-11T16:03:38Z",
+  "schema_version": 1,
+  "snapshots": {
+    "phase1-000001": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "dad1b643cfaa6b64354c5eb49a2a811c5649801bf0a746edd6605187c2275977"
+    },
+    "phase1-000002": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "8ca990d7e7c26edfb4e16a6b7c016bfd1d2d46532ea44a26e90b9bec30659164"
+    },
+    "phase1-000003": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "139e002967e2fd3911abf1a8f5f385ca65e4289d7666244eaee839c19f7e48fd"
+    },
+    "phase1-000004": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ea8b4f546cee4b479d9be15f7ef078d24ab83ce0c01c9d6abf639c55b6a5935b"
+    },
+    "phase1-000005": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e9e3d22d1ca6d8bc275e05091c9692fb69672aff0168070a3d4664ba6118f0c9"
+    },
+    "phase1-000006": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "3ccb6be1bb9d95c06d643d76bf37afa3d0eaa7eaeb75d72fc2e3649e961464f6"
+    },
+    "phase1-000007": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "f8e38c012fb7130c8abf17d577ec801633613c86b50ebe6c62e749b3adf8e180"
+    },
+    "phase1-000008": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e72e4bf3d6f0d0306ea95e93003338e54fc9255f5fe59133247b3730677ce041"
+    },
+    "phase1-000009": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "673ce0334baef79f42ebf148584af5e167a916e21cd743fce0eddbb2d04b5151"
+    },
+    "phase1-000010": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e05904f1b7c8a733acd7f3cf52344aed7fe4d2ce094e554689e6d08fe0693b9a"
+    },
+    "phase1-000011": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "8780502c5be847e61e029ff4706e4cbe9141219a5aef9d4a4439ff5fd9145510"
+    },
+    "phase1-000012": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "98618896d6e673fda642ed5af9ee325a2b1e559d5cbf29aa1e90dcb5144d30e8"
+    },
+    "phase1-000013": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "b6748c474c975b3a31ca9946e2ab67ef7a45782e9963ae0365645e05dd163e69"
+    },
+    "phase1-000014": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "d4756aa65765a7919fcf9426e31ab80c9970095ddc3726e52c437b6df9781991"
+    },
+    "phase1-000015": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "4726054b2295aa197fff40fb8d1edadab881af251e5afede533b03455080823d"
+    },
+    "phase1-000016": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "03f83aa2405d11eb0ecbd2c5867699817aa848cac9d377017da6986e3372f9d8"
+    },
+    "phase1-000017": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "1bcff465daa04e5952d38fbfc0b0e1f584b487131426d5b936f067f8ea46c572"
+    },
+    "phase1-000018": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "a54722ea0b0ef0f2a2934673ba5c246200f2e1c269769448e1f5b4264a5aa40f"
+    },
+    "phase1-000019": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "8bd1d6a9e23f2f445ad3325b25d43e718a93ceefdc8693529703fcef83e78cf3"
+    },
+    "phase1-000020": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "b59c72b56ce6b145109fa70fb7d0f849103d1ff5462ca0ef661dbd6b768402fd"
+    },
+    "phase1-000021": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "31cd59af9269d9932dbf7af1cdd08354743855e093346f660774f041ee226a70"
+    },
+    "phase1-000022": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "1ec9f62686ccb90aec55ea4bae6e56c5f2eedd729828a1f422862fbdfb3bf8d3"
+    },
+    "phase1-000023": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "33de806db8d01aa3123801833021e87315cebcf20f47af243560e97b857c7d6e"
+    },
+    "phase1-000024": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "883c7e36e64e7fef76d96ec6901d1a277f4fbe52ab6375ad70fd620fcb13466a"
+    },
+    "phase1-000025": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "5776b63189153be82d6e9b175ccf1adcc6e416f5cafdc079e612c0e57868cb74"
+    },
+    "phase1-000026": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ea06836803e96ee87d3445092f080c951a1660d58f18ff2e65551738d190b1b6"
+    },
+    "phase1-000027": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "2629df913c9f9dc7fdbe85d22be5ad2b22fdb8346ab55fb52709ddcd32ad24d7"
+    },
+    "phase1-000028": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "c421a1c1a6b4130b97ff3ef4cf6370ad2e9804c015403d8079d36a7caca3d032"
+    },
+    "phase1-000029": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "f5536e2d9fed9e3ae353d15b57c3f8f206189ae5ed35cab72619cbe023cfdb7c"
+    },
+    "phase1-000030": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "f72433cec3f9eb880a52908540edd4809eac2887694cc0058826cf4d9e3905f7"
+    },
+    "phase1-000031": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "fbd59e7dd2eed4ed046dfd8e14d9604ef97e15dcf49f1d4747e6372c2b07da6a"
+    },
+    "phase1-000032": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "88af7457ee126ae4cda17098b7bef0f7e25c1bd93bc46707a30b5905b023a222"
+    },
+    "phase1-000033": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "f8374684a1ec0a0ec71c19e9a581ec81d4ab130f82988aa81ade7f58ed4f4b72"
+    },
+    "phase1-000034": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e541e09526208fb2acb3b091cd23c83678d5093150c75712c873a541738538da"
+    },
+    "phase1-000035": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ece275737a17ccb7b4ec782f2af1266c6c7e9480c7a91c3e43702e1c530764af"
+    },
+    "phase1-000036": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "0d4d32bec8b9ee97b349e6c3657d2bca2515466ae99d4dba9f3767af5d184aa9"
+    },
+    "phase1-000037": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "c47d72624084767c03e7562318f579ea0620437068019cb969d1eb06aa1f7c83"
+    },
+    "phase1-000038": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "b294ee308b628b5d5e4ac1c61a2dca29c9ee0fcc838e609d10f2d65b704ef825"
+    },
+    "phase1-000039": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "145f483c623aaa396a980be5e58c0aba8c5a13173d981875fd9420b2671c9dbe"
+    },
+    "phase1-000040": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "3687e94bae7244e81097b175c6008ab0f8db46d74220bebdc06f13625f229fe8"
+    },
+    "phase1-000041": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "823539cf6306ddaf53f0474d51f64a89bbf8924f3b949e88605c9b461c12a6db"
+    },
+    "phase2-000001": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "d4c69297e95f02ab63798b32d25d69730f0ee4e633644b75e3b86906544a19b2"
+    },
+    "phase2-000002": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "8cb015da6cfd6772eccd7e29c17d988b558cfc49a42b887d8e41509139a39df4"
+    },
+    "phase2-000003": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e43b9b4f232f325e7b921bdb340e3f6a8cb07e82498f3d7faca36f9b3c418831"
+    },
+    "phase2-000004": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "6ff132e6b196cd8914a6881cf32c007e5c532b4aff52a20f5229851420e44e2f"
+    },
+    "phase2-000005": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "25a3bddc87ebcc9b911f613bfc2bbf7759a347427ba975fb9924e3f063c2bc0c"
+    },
+    "phase2-000006": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "3a63c5b3a8ef2018d920691cfc8b4b5cc997c4bc867386c346b6b7c93202858c"
+    },
+    "phase2-000007": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e2169475742e5f0de5933d8308c0d00d564d61b0e2f65f638505fbbfbb883472"
+    },
+    "phase2-000008": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "07314a16337eec754518ed0724c5519c9f427ed45e509e5040d5faee7e9111a6"
+    },
+    "phase2-000009": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "258c689b6af4b0c4df3fee3097995364a001c8d879e18b9d8277caa0da2216ef"
+    },
+    "phase2-000010": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "8602ba3eb2320c55bd5b431ad0bb256119b68d1cceeef3e9fa44ade24054ee5d"
+    },
+    "phase2-000011": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "3506eb49cabcbf856f6d8b2ea8140d6a2bff5683b71c21ba6480b8a1c72f0581"
+    },
+    "phase2-000012": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ef1de2e6c52be1863dbf010fe95b3e839f1ff6ffb10ded2e2a41508c3cc914d7"
+    },
+    "phase2-000013": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "975d9689208a8d7495ffe746b94b5e83a5834e9885ac70e6fc88afc39a5b08dd"
+    },
+    "phase2-000014": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "fd62fa31025af80fdc70fc615ac23031e6cb754e7cdcbe0f44da2fc27afe7e5f"
+    },
+    "phase2-000015": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "6f392332a9642acc1244dd49c082228ac2efa5bdf9741a2e8d632b711810eab2"
+    },
+    "phase2-000016": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "fa19d84b365408d8cfe4d28c15950e93b4af8632640bb9313c960d307c4ea585"
+    },
+    "phase2-000017": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "8241046a28109d0a90af03a31b2eb7b8acb9b129124a35006d4f43b0d268b5a9"
+    },
+    "phase2-000018": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "eb30874b83eb49059965e052dc678a2d54bb718c0e9c091b0dbdc4244893fe44"
+    },
+    "phase2-000019": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "c550335d9c79a0ae85c57a0fe431b29862b161affa05b770952f92e67f3edeb6"
+    },
+    "phase2-000020": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "29ce4a7de2e2b9aca1e29576251dddcf1beb96002b3cc4635ae50e9e72691d1c"
+    },
+    "phase2-000021": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "d095b3e463565a10328f65fc38aaed12b1bc00cb43d9279efdd3ff0e64d10881"
+    },
+    "phase2-000022": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "c96d0ca803927102e04e717e1fe1f5f59686464bb6aa51d5f25132a16dac98b8"
+    },
+    "phase2-000023": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "9be959a768a836b4548322d15d77fbb745c6eb76c7f1b4ba835f9e76917103e5"
+    },
+    "phase2-000024": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "bb8c9a2faa2fd1db879ed0d1d5e629c130c7513c66131775ec238e4d419baa67"
+    },
+    "phase2-000025": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ef0e8f16ca9dfc77c1c9f28dedd8216c13557e1517f3b582f9481ad09f972697"
+    },
+    "phase2-000026": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "2f5bb3735dcfe97e276a3bc5dd2d6eb26088dc87a47c2dd6309bf8beba024201"
+    },
+    "phase2-000027": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "6382216ef2106ecbb8ead8112345fe864180ef02756c7f99446cb8f202685f43"
+    },
+    "phase2-000028": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "1158d9c2d98ac9cea7e55f6b080eb7ede00b2f58585781768f6bf6fd961b5be8"
+    },
+    "phase2-000029": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "d6d2678515bf1d8db9a40931dc041339fff278d3cf7c0877363c0e26ae2c69ce"
+    },
+    "phase2-000030": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "c1f4444868c7c56abc6fc1ce6292a887efc70204fa93d4f90ab066ec8969f731"
+    },
+    "phase2-000031": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "39a777e8708fb28cffd3a5fc6a56c24f955f685fe5dcb576f1906e506cc60fec"
+    },
+    "phase2-000032": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "1dab4b89c7dd70b6a98515c23f3a99c6374f0751bbd840c9ef1ce9fe1f20783e"
+    },
+    "phase2-000033": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "a62c1044b66c6a0a9dd08471f21731d024fcaf3bb053c0a2a66eca4a44b745bf"
+    },
+    "phase2-000034": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ef3c62daab4679c3cf2533c207efe70675900466ce645f445512bfd2075f662c"
+    },
+    "phase2-000035": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "34cbe8a89bceb875d5dea14832153204d5dd61fdbf1dd156d3aaaf5319d0f711"
+    },
+    "phase2-000036": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "0b1ab8e3296b78b8922cad28dc4f994b4c7087a1374877f6775f7b78d2c4ecc7"
+    },
+    "phase2-000037": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "4279181aefe9262b0addf170b509be49fc4d7d89f0e72db6d590a02c379d5150"
+    },
+    "phase2-000038": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "3eff42b75a9fea3eac63a5b39bab968dca84cfe617806a01f9339a70023e59b4"
+    },
+    "phase2-000039": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "0268595b15e9c52d102215f2fa37617662a77041f0f94fd2f6f8908494490301"
+    },
+    "phase2-000040": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ba3475261432ee77376524e092ec0b45ed5f4f915f1af97a2d44b1e68dc1f9c3"
+    },
+    "phase2-000041": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "781255f899a6b49bf3e851a755a37af751c140eecc484ae70ce1bca0da9080f0"
+    },
+    "phase2-000042": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "646d170f6266655ffe1b5b30d4ab4633ffdb598fe42636511ca0a2303f4220cd"
+    },
+    "phase2-000043": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "76b9796dd5303ab28f9e3b4da79c3aa4760d16fd8a8901eec5af0f1e81a1b139"
+    },
+    "phase2-000044": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "258a8c335df63c8d82c64f790ec725c543a800a5c9ceee211d4d3faf61c0a3af"
+    },
+    "phase2-000045": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "c87acdebd0de3a548659c6ef4913a058e9dd2a93fd612f60d3fb485090062e45"
+    },
+    "phase2-000046": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "a8c018c8d5662668a9091c7e977275f394f40566fdaac72f2a9d482b813fd03d"
+    },
+    "phase2-000047": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "c3bf0344e30baf58b6101fc5accd7dd4df9277124ee7575f254f22919c48c71e"
+    },
+    "phase2-000048": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "b38eb86ea9f725a60c108a859ea6d9da5396bd97f92ab7b0e1b40e96a8d4f2fd"
+    },
+    "phase2-000049": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "b79d5c9858eeed2b76fc0ec7711c8be2636d3f442c412f3f687574fee845f137"
+    },
+    "phase2-000050": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "cfdb434a06b6f04b048e5f2e712f16e063dd331c1b799d9588af46fb21fad5b6"
+    },
+    "phase2-000051": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "94100816ea4c3d245a2ba010c320eb446672a507e11be2f2c68643b85bbf422a"
+    },
+    "phase2-000052": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "a57638071d13b11135898d348ed871767123ed9f229b87e040c9e79ee2c2f7dd"
+    },
+    "phase2-000053": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "30421039f1c812e85d593dd10c01c504e039ed8b06fcb5cf544b4367fde2ce1d"
+    },
+    "phase2-000054": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "8fd0f1541f8a075ef4dbe46384cc82b1d95d6b3a5bbc93b981bf6621d7d2f828"
+    },
+    "phase2-000055": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "d07c86af3ccfdda8b8d0a590918efd374e296c0b1fdf09f422ba2b71e9ada967"
+    },
+    "phase2-000056": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "f540eda656c35e55f0d8101548078798395ba82957628b5ef115bc53fc6aa5d6"
+    },
+    "phase2-000057": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "6356dd6ab56d0b94c834930f5868f662ef83d3c19b229bea9fe9f484991cdd02"
+    },
+    "phase2-000058": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "f0b559c45c8166e2eda17fa698dbfaf27a65e6e32f63ebcb463ad11857e8c09c"
+    },
+    "phase2-000059": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "97d03f9fcc2b10372a3fe8ccd39ebe0e1e95bea453d283e7be71c553905c2bb0"
+    },
+    "phase2-000060": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e78a0d29f590e8d373d1b6d4a15446a7c1daa4b6d53bd8edb5b59bb5ae9e8fa5"
+    },
+    "phase2-000061": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "411d8ea17aa37e893908b1cab0a954636ce74426d22ed6a467fb87726ca4bfb8"
+    },
+    "phase2-000062": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "5d1adb62a000193aaefc62d9658ec171f685055841f81e35b5fc9f1ff7736327"
+    },
+    "phase2-000063": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "bb51e07f9293df6b80e1ecf814323c8af13cb0047b7e9f586f8b41d123b141e7"
+    },
+    "phase2-000064": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "95d7315a0de0b528270fec3eb5263997f42309fd1f72b808b2fe7cbea83c9485"
+    },
+    "phase2-000065": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "a97ae2c4707dd48bd171c287b86d93245c945f018729f1a126032084ed39c832"
+    },
+    "phase2-000066": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "78573578cb5fcafb09ca6b76dcd8d69ebc2bed3aa866b2195deede505d40ac55"
+    },
+    "phase2-000067": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "4f852cd06acacc0bc3b02b1a28dab83d6a63d4a431242b8a729340c2c832db95"
+    },
+    "phase2-000068": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "1c09846ea69c6d2b12f3e2ab9e94e46b456fa8780d257e8447096e0fa2ed5f16"
+    },
+    "phase2-000069": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "710d9325601f706a4919e5714283e6da66ba68a490dc614bec317b2e74af08ce"
+    },
+    "phase2-000070": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "8f8f8385f7fa013c3da17117dc9a9657339b5f72d66679af223ec0da90722efe"
+    },
+    "phase2-000071": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "bde8993d2b703593b277b0abe13e10391f151b5be0f0bfc6da069223d9e366d8"
+    },
+    "phase2-000072": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "49d479627c0f8f2c1dc66a93e982bc9d50dc68b42247ca3e45ce49cc20bed29c"
+    },
+    "phase2-000073": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "b196996794821fb653f1e55f229ffc7394ae3e336671213bce60f56cd2a3ebdc"
+    },
+    "phase2-000074": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "d7be536e68120e9b5caf4398ee4b9bd9ba5b87ba6c8716d5b01fa0f21808d4b6"
+    },
+    "phase2-000075": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "7a67d9ba94a46ee3a6e232a6d9edfb451cb3180daf872889adf54ac463ef7f95"
+    },
+    "phase2-000076": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "894a703501681ba155c3c671aa8ff0914b4b79bb8eb33a510fd2934b25097d48"
+    },
+    "phase2-000077": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "547af4e093f3a8ba7291872d7e4278b5933891f08b5e59abfd817917e04f360f"
+    },
+    "phase2-000078": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "dd9b071f7338107bf6c7707d97ee96cc4f146e949d02461dfcdaf063e3a4f39d"
+    },
+    "phase2-000079": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "9488383e5c13a8dd25e7e83299920e1b499b89782e3b9ac0fb51cdfad254ebf3"
+    },
+    "phase2-000080": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "05c9a0980c619a1460384a7a464dc60d5fb02dfa84085d0896b477090433f016"
+    },
+    "phase2-000081": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "abc37869850e9ba5a782b8ddad5b5b9d62099c4e8ae6bff81dd23382c2a0a049"
+    },
+    "phase2-000082": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e206d122b634bb71f01ef94b3ea3905c74828955183bd98a8dcf93d84c70cc8e"
+    },
+    "phase2-000083": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "bd937f23cfd7312ced68e6507bb12a48bd8e43aa063e014ad41f108ad3b29f35"
+    },
+    "phase2-000084": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "a44329b7f52126b28309c05744ffd296fdd6d5915d0e73b2c504d8d2e60bc0d6"
+    },
+    "phase2-000085": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "742efba91d5faaf77f4e1ef6d0fea62261e67e0f6ebb7a50bef5416dd59bbb7a"
+    },
+    "phase2-000086": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "3103f4a5e74bac40d98f039382df2b0e86aebfe43115e301953b121d551dc5cc"
+    },
+    "phase2-000087": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ddc2de2515c902d8622cb8b6c5b94f2ac1830dea43cf3f05efabeb3937650c97"
+    },
+    "phase2-000088": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "e31252da4dedc154aa6449ea8681f694b2e93f338661f2396bbadc6044b6f71d"
+    },
+    "phase2-000089": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "08582944a41f70eb2bd8a61041424b9af68238631d1f814d3315e17052257be2"
+    },
+    "phase2-000090": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "ae38aac8570b86665ba726ca4ecdc9961b4cfe10754d509c87d7a60a3a10392b"
+    },
+    "phase2-000091": {
+      "contract_profile": "registryops-legacy-before-2026-07",
+      "protection_status": "legacy_baseline_recorded_at_transition",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "aeb0cb623c0a0c14434dbca973bdd09c9021c2497c5098023c4d1a5eb753d2ca"
+    },
+    "phase2-000092": {
+      "contract_profile": "registryops-contract-2026-07",
+      "protection_status": "immutable_from_publication",
+      "recorded_at": "2026-07-11T16:03:38Z",
+      "tree_sha256": "be27465b2990104e351d70febc769352a2b0689a92e1b86a860847dd59964a56"
+    }
+  },
+  "transition_publication_id": "phase2-000092"
+}

@@ -1,40 +1,70 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://registryops.org/schemas/proof_status.schema.json",
-  "title": "RegistryOps Proof Status",
+  "$id": "https://registryops.org/schemas/proof_attestation.schema.json",
+  "title": "RegistryOps Evolving Proof Attestation Revision",
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "contract_profile",
     "publication_id",
+    "revision_id",
+    "created_at",
     "status",
-    "anchored_object",
-    "anchor_payload_path",
-    "anchor_ots_path"
+    "snapshot_merkle_root_sha256",
+    "snapshot_events_sha256",
+    "anchor_ots_path",
+    "anchor_ots_sha256",
+    "previous_revision_manifest_sha256",
+    "last_verified_at",
+    "verification_method",
+    "verification_target",
+    "verification_result",
+    "details"
   ],
   "properties": {
+    "contract_profile": {
+      "const": "registryops-contract-2026-07"
+    },
     "publication_id": {
       "type": "string",
-      "minLength": 1
+      "pattern": "^phase[12]-[0-9]{6}$"
+    },
+    "revision_id": {
+      "type": "string",
+      "pattern": "^r[0-9]{6}$"
+    },
+    "created_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
     },
     "status": {
       "type": "string",
       "enum": [
-        "pending_ots",
         "ots_present_unverified",
         "verified"
       ]
     },
-    "anchored_object": {
+    "snapshot_merkle_root_sha256": {
       "type": "string",
-      "const": "integrity/merkle_root.txt"
+      "pattern": "^[a-f0-9]{64}$"
     },
-    "anchor_payload_path": {
+    "snapshot_events_sha256": {
       "type": "string",
-      "const": "integrity/anchor_payload.json"
+      "pattern": "^[a-f0-9]{64}$"
     },
     "anchor_ots_path": {
+      "const": "anchor.ots"
+    },
+    "anchor_ots_sha256": {
       "type": "string",
-      "const": "integrity/anchor.ots"
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "previous_revision_manifest_sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-f0-9]{64}$"
     },
     "last_verified_at": {
       "type": [
@@ -42,13 +72,6 @@
         "null"
       ],
       "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
-    },
-    "details": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "maxLength": 500
     },
     "verification_method": {
       "type": [
@@ -76,6 +99,11 @@
         "published_anchor_verified",
         null
       ]
+    },
+    "details": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500
     }
   },
   "allOf": [
@@ -88,21 +116,13 @@
         }
       },
       "then": {
-        "required": [
-          "last_verified_at",
-          "verification_method",
-          "verification_target",
-          "verification_result"
-        ],
         "properties": {
           "last_verified_at": {
-            "type": "string",
-            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+            "type": "string"
           },
           "verification_method": {
             "type": "string",
-            "minLength": 1,
-            "maxLength": 200
+            "minLength": 1
           },
           "verification_target": {
             "const": "bitcoin"
