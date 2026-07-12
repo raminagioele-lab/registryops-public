@@ -1,0 +1,37 @@
+{
+  "phase": "phase2",
+  "values": [
+    {
+      "name": "first_seen",
+      "description": "First admissible public observation of an object by RegistryOps."
+    },
+    {
+      "name": "reobserved",
+      "description": "New admissible observation of an unchanged observable state in a later cycle."
+    },
+    {
+      "name": "state_changed",
+      "description": "Observation of a changed public state for an already known object."
+    },
+    {
+      "name": "withdrawn",
+      "description": "Observation that a previously public state or object is no longer publicly present."
+    },
+    {
+      "name": "revoked",
+      "description": "Observation of an explicit public revocation."
+    },
+    {
+      "name": "replaced",
+      "description": "Observation that a public state was explicitly replaced by another."
+    },
+    {
+      "name": "expired",
+      "description": "Observation that a public state reached its public expiration."
+    },
+    {
+      "name": "unreachable",
+      "description": "Observation that the expected public source was unreachable at observation time."
+    }
+  ]
+}
