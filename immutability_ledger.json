@@ -890,6 +890,12 @@
       "protection_status": "immutable_from_publication",
       "recorded_at": "2026-07-20T04:12:30Z",
       "tree_sha256": "f57c5e705c2b53fbcf7e0b220d6b722cbbc364a86dd1860d011e4a83bca99322"
+    },
+    "phase2-000108": {
+      "contract_profile": "registryops-contract-2026-07",
+      "protection_status": "immutable_from_publication",
+      "recorded_at": "2026-07-20T09:40:09Z",
+      "tree_sha256": "1a57aa130ac92e067bf849e70cca5bbc3f5b90abc389eb6551a9be33a8163d45"
     }
   },
   "transition_publication_id": "phase2-000092"
