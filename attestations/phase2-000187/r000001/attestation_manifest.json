@@ -1,0 +1,17 @@
+{
+  "anchor_ots_path": "anchor.ots",
+  "anchor_ots_sha256": "3b97bb8645a71886582a5a6e965d2db30ece20ea2407599a0aa7ffe9d8b32f30",
+  "contract_profile": "registryops-contract-2026-07",
+  "created_at": "2026-09-15T05:05:01Z",
+  "details": "OTS proof revision is available; external Bitcoin verification remains pending.",
+  "last_verified_at": null,
+  "previous_revision_manifest_sha256": null,
+  "publication_id": "phase2-000187",
+  "revision_id": "r000001",
+  "snapshot_events_sha256": "84558d86a5c1aae2777573d360baf83c34aa274c128097dc040718507ddf6859",
+  "snapshot_merkle_root_sha256": "88fac514ef5f8f8a1d73879f1b1530d486a310be5ca606b36e11c44b6a73c071",
+  "status": "ots_present_unverified",
+  "verification_method": null,
+  "verification_result": null,
+  "verification_target": null
+}
