@@ -1,12 +1,12 @@
 {
   "contract_profile": "registryops-contract-2026-07",
-  "publication_id": "phase2-000237",
+  "publication_id": "phase2-000238",
   "publication_line": "phase2",
   "publication_status": "canonical",
-  "published_at": "2026-10-14T01:58:58Z",
-  "event_count": 1321,
-  "events_sha256": "53f35c228db951cd5c258caef7bec4d04431e1600f51987f12cd50f9818b308a",
-  "merkle_root_sha256": "7fc2b54acf6e62082ded030bc46cbef7326d2fbaa5033b9181bb7f9dbb9e12b3",
+  "published_at": "2026-10-15T07:33:49Z",
+  "event_count": 1331,
+  "events_sha256": "c300a3c5dd5c1be6e7277853d0cfa44121ea09dcfecfef8fcb9b7393f9881262",
+  "merkle_root_sha256": "75796e3a910c193a9bb0fc27390e43cf88248375de31b31bea974a142fb0c66a",
   "journal_path": "journal/events.jsonl",
   "proof_status_path": "integrity/proof_status.json"
 }
