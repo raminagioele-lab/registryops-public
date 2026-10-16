@@ -1,0 +1,12 @@
+{
+  "contract_profile": "registryops-contract-2026-07",
+  "publication_id": "phase2-000239",
+  "publication_line": "phase2",
+  "publication_status": "canonical",
+  "published_at": "2026-10-16T13:20:19Z",
+  "event_count": 1341,
+  "events_sha256": "2ff6f3a7de44f60cf27e50619c9cdccdd7ada87a5869f13ba20f76975ad84fac",
+  "merkle_root_sha256": "0def32f24e6006f607539c94d94022243999dd6d04a36a44a0d438694792e56a",
+  "journal_path": "journal/events.jsonl",
+  "proof_status_path": "integrity/proof_status.json"
+}
