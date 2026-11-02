@@ -6,7 +6,7 @@
     "last_observed_at": "2026-11-02T17:11:56Z",
     "event_count_total": 106,
     "persistence_duration_days": 121,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
@@ -16,7 +16,7 @@
     "last_observed_at": "2026-11-02T17:11:54Z",
     "event_count_total": 106,
     "persistence_duration_days": 121,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
@@ -26,7 +26,7 @@
     "last_observed_at": "2026-11-02T17:11:55Z",
     "event_count_total": 106,
     "persistence_duration_days": 121,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
@@ -36,17 +36,17 @@
     "last_observed_at": "2026-11-02T17:11:16Z",
     "event_count_total": 186,
     "persistence_duration_days": 212,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
     "surface_type": "maven_central_artifact_metadata",
     "asset_ref": "com.google.guava:guava:33.1.0-jre:jar",
     "first_seen_at": "2026-05-26T11:49:58Z",
-    "last_observed_at": "2026-11-02T17:11:41Z",
-    "event_count_total": 142,
+    "last_observed_at": "2026-11-02T23:55:24Z",
+    "event_count_total": 143,
     "persistence_duration_days": 160,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
@@ -56,7 +56,7 @@
     "last_observed_at": "2026-11-02T17:11:28Z",
     "event_count_total": 147,
     "persistence_duration_days": 165,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
@@ -66,7 +66,7 @@
     "last_observed_at": "2026-11-02T17:11:54Z",
     "event_count_total": 141,
     "persistence_duration_days": 160,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
@@ -76,7 +76,7 @@
     "last_observed_at": "2026-11-02T17:11:15Z",
     "event_count_total": 185,
     "persistence_duration_days": 212,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
@@ -86,7 +86,7 @@
     "last_observed_at": "2026-11-02T17:11:16Z",
     "event_count_total": 186,
     "persistence_duration_days": 212,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   },
   {
@@ -96,7 +96,7 @@
     "last_observed_at": "2026-11-02T17:11:15Z",
     "event_count_total": 186,
     "persistence_duration_days": 235,
-    "last_state_update": "2026-11-02T17:12:07Z",
+    "last_state_update": "2026-11-02T23:55:45Z",
     "state_level": "persistent"
   }
 ]
