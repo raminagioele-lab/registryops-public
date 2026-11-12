@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registryops.org/schemas/state.schema.json",
+  "title": "RegistryOps Derived Aggregated State",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "surface_type",
+      "asset_ref",
+      "first_seen_at",
+      "last_observed_at",
+      "event_count_total",
+      "persistence_duration_days",
+      "last_state_update",
+      "state_level"
+    ],
+    "properties": {
+      "surface_type": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "asset_ref": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+      },
+      "first_seen_at": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+      },
+      "last_observed_at": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+      },
+      "event_count_total": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "persistence_duration_days": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "last_state_update": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+      },
+      "state_level": {
+        "type": "string",
+        "enum": [
+          "stable",
+          "evolving",
+          "persistent"
+        ]
+      }
+    }
+  }
+}
