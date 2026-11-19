@@ -1,0 +1,29 @@
+{
+  "phase": "phase2",
+  "values": [
+    {
+      "name": "oci_manifest",
+      "label": "Docker / OCI manifest digest"
+    },
+    {
+      "name": "npm_package_metadata",
+      "label": "npm package version metadata"
+    },
+    {
+      "name": "pypi_release_metadata",
+      "label": "PyPI release metadata"
+    },
+    {
+      "name": "ietf_internet_draft",
+      "label": "IETF Internet Draft versions"
+    },
+    {
+      "name": "maven_central_artifact_metadata",
+      "label": "Maven Central artifact metadata"
+    },
+    {
+      "name": "crates_io_package_index_metadata",
+      "label": "crates.io package index metadata"
+    }
+  ]
+}
