@@ -1,0 +1,13 @@
+{
+  "contract_profile": "registryops-contract-2026-07",
+  "publication_id": "phase2-000296",
+  "publication_line": "phase2",
+  "generated_at": "2026-11-21T00:42:31Z",
+  "anchored_object": "integrity/merkle_root.txt",
+  "journal_path": "journal/events.jsonl",
+  "event_count": 1653,
+  "events_sha256": "ab5905566aad624a2590b5cd01b3d3115a30481b915b0fe4cb18a79903a84f1c",
+  "merkle_root_sha256": "282ad53e62d0224a6e402a5ed004d4efef1499a9a48961436973bf80c7172485",
+  "leaf_hash_rule": "sha256(utf8(raw_journal_line_without_trailing_lf))",
+  "leaf_order": "journal_file_line_order"
+}

@@ -2018,6 +2018,12 @@
       "protection_status": "immutable_from_publication",
       "recorded_at": "2026-11-20T17:23:28Z",
       "tree_sha256": "ba3d25b3d5bccc83b485419588cfd5f8ee85cd28479efc02bfc2796c7a7b75cb"
+    },
+    "phase2-000296": {
+      "contract_profile": "registryops-contract-2026-07",
+      "protection_status": "immutable_from_publication",
+      "recorded_at": "2026-11-21T00:42:34Z",
+      "tree_sha256": "dd727998de29d11d071e1c3427802f27b86562e92993a03668a55698b3b430a7"
     }
   },
   "transition_publication_id": "phase2-000092"
